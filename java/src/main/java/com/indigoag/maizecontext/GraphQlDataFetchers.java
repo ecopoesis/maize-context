@@ -19,11 +19,7 @@ public class GraphQlDataFetchers {
             ImmutableMap.of("id", "book-2",
                     "name", "Moby Dick",
                     "pageCount", "635",
-                    "authorId", "author-2"),
-            ImmutableMap.of("id", "book-3",
-                    "name", "Interview with the vampire",
-                    "pageCount", "371",
-                    "authorId", "author-3")
+                    "authorId", "author-2")
     );
 
     private static List<Map<String, String>> authors = Arrays.asList(
@@ -32,10 +28,7 @@ public class GraphQlDataFetchers {
                     "lastName", "Rowling"),
             ImmutableMap.of("id", "author-2",
                     "firstName", "Herman",
-                    "lastName", "Melville"),
-            ImmutableMap.of("id", "author-3",
-                    "firstName", "Anne",
-                    "lastName", "Rice")
+                    "lastName", "Melville")
     );
 
     public DataFetcher getBookDataFetcher() {
